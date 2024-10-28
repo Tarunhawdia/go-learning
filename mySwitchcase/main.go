@@ -12,6 +12,7 @@ func main() {
 		fmt.Println("One")
 	case 2:
 		fmt.Println("Two")
+		fallthrough
 	case 3:
 		fmt.Println("Three")
 	default:
